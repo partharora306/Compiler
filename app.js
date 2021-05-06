@@ -54,7 +54,6 @@ compile.addEventListener('click', async () => {
             fetch_result(response.codeId);
         }
         else {
-            //console.log('Error');
             output.innerHTML = response.error;
                }
     })
